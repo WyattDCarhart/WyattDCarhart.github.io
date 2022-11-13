@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(215, 233, 249);
+}
+
+.assignments {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.assignment {
+    width: 21%;
+    padding: 20px 10px;
+    margin: 10px;
+    background-color:rgb(163, 163, 209);
+    border-radius: 5px;
+}
+
+.assignment img {
+    width: 200px;
+    border: 4px solid rgba(0, 0, 255, 0.502);
+    display:block;
+    margin:auto;
+}
+
+.assignment img:hover {
+    width:210px;
+    border: 4px solid rgba(59, 131, 255, 0.502);
+}
